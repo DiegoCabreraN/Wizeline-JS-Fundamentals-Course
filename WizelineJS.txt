@@ -1,0 +1,85 @@
+Javascript is also known as ECMAScript.
+Called like thet invoking the idea of "Java for the Web".
+
+JS is also used for running servers, programming raspberry pi or arduino and other things.
+
+Language fundamentals:
+  Variables: A way to storage Data and must start with a letter except _ or $
+    Var x: Can be reassigned global
+    Const x: Can't be reassigned
+    let x: Can be reassigned local
+
+  Data Types:
+    the Values have data types, not the variables
+      int defined by a number
+      string defined by quotes
+      boolean defined by true or false
+      if not defined the value is undefined
+  Arrays:
+    Initialized by brackets.
+    variables with many values.
+      push(element), it will add elements to the end of the array
+      pop(), it will delete elements to the end of the array
+      unshift(), it will add elements to the beggining of the array
+      shift()
+      slice(arg,arg)
+      forEach(function)
+      sort(function)
+      length
+    The Data Type of an Array: is an Objects
+  Functions:
+    needed if you want to reuse code
+    function name(arguments){}
+    const = name(arguments)
+    let = name
+      name(arguments)
+    The Data Type of a function is an Object
+    Decition Statements:
+      if(conditional){}
+      else if(conditional){}
+      else{}
+      switch(var){
+        case 1:
+          x;
+          break; //Break is used if you want to stop, if not just remove it and it will run the next case
+        default:
+          break;
+      }
+      a===a the same data type
+      a==a the same value
+      a!=a diferent value
+      a!==a diferent data type
+
+      for loops:
+        for(let i = 0; i < 10; i++){
+          console.log(i+1);
+        }
+      while(conditional){}
+      ////////////////////////////////////
+
+
+
+  Scope:
+  if a variable lives only in a block, like a let inside an function Statements
+  if you don't write a let or a var, it will become a global variable
+  var is global only if its declared outside a Function
+
+
+
+
+
+
+
+Flow Control:
+Arrays & Objects:
+  Objects:
+   const object = {
+    property: value,
+    property2: value,
+    funcname: function(){
+      <script inside here>
+    }
+   }
+
+
+Core JS Principles:
